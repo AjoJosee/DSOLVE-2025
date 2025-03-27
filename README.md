@@ -1,16 +1,16 @@
 # 🚀 DSolve-2025 Hackathon
 
 ## 👥 Team Information
-**Team Name:** [Your Creative Team Name]  
+**Team Name:** 0xDEADBEEF  
 
 **Team Members:**
-- Member 1 Name
-- [Member 1's Github ](https://github.com/username) - Role/Contribution
-- Member 2 Name
-- [Member 2's Github](https://github.com/username) - Role/Contribution
+- Ajo Jose
+- [AjoJosee's Github ](https://github.com/AjoJosee) - Main front-end Dev
+- Johann Thomas Philip
+- [theflawlesserror's Github](https://github.com/theflawlesserror) - Asst. Front end, back end Dev
 
 ## 💡 Project Idea
-[A clear, concise 2-3 sentence description of your project's purpose and value proposition]
+A simple & efficient carbon calculator
 
 ## ✨ Key Features
 - 🔍 Feature 1: [Brief description]
