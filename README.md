@@ -22,7 +22,7 @@ Promotes sustainable lifestyle choices.
 - 🛡️ Feature 3: Connect with us!
 
 ## 🎥 Product Demo
-[![Watch the Demo](https://via.placeholder.com/300x200?text=Click+for+Demo+Video)](https://youtube.com/link-to-video)
+[![Watch the Demo](https://img.youtube.com/vi/placeholder/maxresdefault.jpg)](https://youtube.com/watch?v=placeholder)
 *Click the image above to view our product walkthrough*
 
 ## 🛠️ Tech Stack
@@ -35,18 +35,50 @@ Promotes sustainable lifestyle choices.
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-- intermediate HTML
-- intermediate CSS
-- basic Javascript
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- Basic understanding of web development (HTML, CSS, JavaScript)
 
 ### Installation
+1. Clone the repository:
 ```bash
-// {Enter the commands for installation here}
+git clone https://github.com/AjoJosee/DSOLVE-2025.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd DSOLVE-2025
 ```
 
 ### Running the Project
+Since this is a static website, you can run it in several ways:
+
+1. **Using Python's built-in server** (recommended for development):
 ```bash
-// {Enter the commands for running here}
+# If you have Python 3 installed
+python -m http.server 8000
+
+# If you have Python 2 installed
+python -m SimpleHTTPServer 8000
+```
+Then open your browser and visit: `http://localhost:8000`
+
+2. **Using VS Code Live Server**:
+- Install the "Live Server" extension in VS Code
+- Right-click on `index.html`
+- Select "Open with Live Server"
+
+3. **Direct file opening**:
+- Simply double-click the `index.html` file to open it in your default web browser
+
+### Project Structure
+```
+DSOLVE-2025/
+├── index.html          # Main entry point
+├── about.html          # About page
+├── calculator.html     # Carbon calculator page
+├── tips.html          # Energy tips page
+├── styles.css         # Main stylesheet
+└── script.js          # JavaScript functionality
 ```
 
 ## 🤝 How to Contribute
