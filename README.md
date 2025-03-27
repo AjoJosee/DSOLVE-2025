@@ -10,16 +10,16 @@
 - [theflawlesserror's Github](https://github.com/theflawlesserror) - Asst. Front end, back end Dev
 
 ## 💡 Project Idea
-A simple & efficient carbon calculator
-Helps users reduce their carbon footprint
-Provides energy-saving tips for urban living
-Calculates carbon impact
-Promotes sustainable lifestyle choices
+A simple & efficient carbon calculator,
+Helps users reduce their carbon footprint,
+Provides energy-saving tips for urban living,
+Calculates carbon impact,
+Promotes sustainable lifestyle choices.
 
 ## ✨ Key Features
-- 🔍 Feature 1: [Brief description]
-- ⚡ Feature 2: [Brief description] 
-- 🛡️ Feature 3: [Brief description]
+- 🔍 Feature 1: Carbon footprint calculator
+- ⚡ Feature 2: Energy tips for various applications
+- 🛡️ Feature 3: Connect with us!
 
 ## 🎥 Product Demo
 [![Watch the Demo](https://via.placeholder.com/300x200?text=Click+for+Demo+Video)](https://youtube.com/link-to-video)
