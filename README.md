@@ -21,9 +21,6 @@ Promotes sustainable lifestyle choices.
 - ⚡ Feature 2: Energy tips for various applications
 - 🛡️ Feature 3: Connect with us!
 
-## 🎥 Product Demo
-[![Watch the Demo](https://img.youtube.com/vi/placeholder/maxresdefault.jpg)](https://youtube.com/watch?v=placeholder)
-*Click the image above to view our product walkthrough*
 
 ## 🛠️ Tech Stack
 | Technology | Version | Purpose |
