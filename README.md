@@ -5,7 +5,7 @@
 
 **Team Members:**
 - Ajo Jose
-- [AjoJosee's Github ](https://github.com/AjoJosee) - Main front-end Dev
+- [AjoJosee's Github](https://github.com/AjoJosee) - Main front-end Dev
 - Johann Thomas Philip
 - [theflawlesserror's Github](https://github.com/theflawlesserror) - Asst. Front end, back end Dev
 
@@ -53,9 +53,9 @@ Promotes sustainable lifestyle choices.
 We welcome contributions! Here are some ways you can help:
 
 ### Good First Issues
-- [ ] Implement feature X
-- [ ] Improve documentation
-- [ ] Fix bug #123
+- [ ] Lack of features
+- [ ] Better carbon footprint calculation model
+- [ ] Fix bugs if found
 
 ### Contribution Workflow
 1. Fork the repository
@@ -66,6 +66,6 @@ We welcome contributions! Here are some ways you can help:
 
 
 ## Acknowledgments
-- [Inspiration source 1]
-- [Library/framework documentation]
-- [Team members/mentors]
+- Inspired by [green city](https://en.wikipedia.org/wiki/Sustainable_city) vsison
+- Used [DeepSeek R1](https://www.deepseek.com/)
+
