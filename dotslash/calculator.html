@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSmart City - Carbon Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                EcoSmart City
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html">Energy Tips</a></li>
+                <li><a href="calculator.html" class="active">Carbon Calculator</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Carbon Footprint Calculator</h1>
+            <p>Calculate your monthly carbon footprint and learn how to reduce it</p>
+        </section>
+
+        <section class="calculator-section">
+            <div class="calculator-container">
+                <form id="carbonForm">
+                    <div class="form-section">
+                        <h3><i class="fas fa-home"></i> Home Energy</h3>
+                        <div class="form-group">
+                            <label for="electricity">Monthly Electricity Usage (kWh):</label>
+                            <input type="number" id="electricity" required min="0" step="0.1">
+                            <small>Find this on your electricity bill</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="gas">Monthly Gas Usage (therms):</label>
+                            <input type="number" id="gas" required min="0" step="0.1">
+                            <small>Find this on your gas bill</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="water">Monthly Water Usage (gallons):</label>
+                            <input type="number" id="water" required min="0" step="0.1">
+                            <small>Find this on your water bill</small>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-car"></i> Transportation</h3>
+                        <div class="form-group">
+                            <label for="carMiles">Monthly Car Miles:</label>
+                            <input type="number" id="carMiles" required min="0" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label for="publicTransit">Monthly Public Transit Trips:</label>
+                            <input type="number" id="publicTransit" required min="0" step="1">
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-shopping-cart"></i> Lifestyle</h3>
+                        <div class="form-group">
+                            <label for="meatConsumption">Weekly Meat Consumption (meals):</label>
+                            <input type="number" id="meatConsumption" required min="0" max="21" step="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="recycling">Recycling Rate (%):</label>
+                            <input type="number" id="recycling" required min="0" max="100" step="1">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="calculate-btn">
+                        <i class="fas fa-calculator"></i> Calculate My Footprint
+                    </button>
+                </form>
+
+                <div id="result" class="result-container">
+                    <div class="result-header">
+                        <h3>Your Estimated Carbon Footprint</h3>
+                        <div class="carbon-score">
+                            <span id="carbonResult">-</span>
+                            <span class="unit">kg CO2/month</span>
+                        </div>
+                    </div>
+                    <div class="result-details">
+                        <div class="detail-item">
+                            <span class="label">Home Energy:</span>
+                            <span id="homeEnergyResult">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Transportation:</span>
+                            <span id="transportResult">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Lifestyle:</span>
+                            <span id="lifestyleResult">-</span>
+                        </div>
+                    </div>
+                    <div class="recommendations">
+                        <h4>Recommendations to Reduce Your Footprint:</h4>
+                        <ul id="recommendationsList">
+                            <!-- Recommendations will be added by JavaScript -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>EcoSmart City</h4>
+                <p>Making urban living sustainable, one step at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="tips.html">Energy Tips</a></li>
+                    <li><a href="calculator.html">Carbon Calculator</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EcoSmart City. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
