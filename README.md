@@ -11,6 +11,10 @@
 
 ## 💡 Project Idea
 A simple & efficient carbon calculator
+Helps users reduce their carbon footprint
+Provides energy-saving tips for urban living
+Calculates carbon impact
+Promotes sustainable lifestyle choices
 
 ## ✨ Key Features
 - 🔍 Feature 1: [Brief description]
@@ -24,16 +28,16 @@ A simple & efficient carbon calculator
 ## 🛠️ Tech Stack
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| Tech 1     | vX.X.X  |         |
-| Tech 1     | vX.X.X  |         |
-| Tech 1     | vX.X.X  |         |
+| HTML       | HTML5   |frontend |
+| CSS        | CSS3    |styling  |
+| Javascript | 2023    |backend  |
 
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-- Node.js v16+ / Python 3.8+
-- npm/yarn/pip
-- [Any other requirements]
+- intermediate HTML
+- intermediate CSS
+- basic Javascript
 
 ### Installation
 ```bash
