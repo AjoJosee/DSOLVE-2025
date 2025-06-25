@@ -95,6 +95,6 @@ We welcome contributions! Here are some ways you can help:
 
 
 ## Acknowledgments
-- Inspired by [green city](https://en.wikipedia.org/wiki/Sustainable_city) vsison
+- Inspired by [green city](https://en.wikipedia.org/wiki/Sustainable_city) vision
 - Used [DeepSeek R1](https://www.deepseek.com/)
 
